@@ -2,7 +2,7 @@ import React from "react";
 import { Users, Star, Award, Infinity } from "lucide-react";
 import bgAbout from "../assets/bg_about.png";
 import storyImage from "../assets/our_story_about.png";
-// import bishnuImg from "../assets/poly.jpg";
+import poly from "../assets/poly.jpg";
 import bishnuImg from "../assets/bishnu.jpeg";
 
 // ✅ Team images
@@ -265,7 +265,7 @@ export default function About() {
             {/* Poly Sarkar */}
             <div className="bg-white rounded-xl shadow-lg p-8 border hover:shadow-xl transition">
               <img
-                src={bishnuImg}
+                src={poly}
                 alt="Poly Sarkar"
                 className="w-24 h-24 rounded-full mx-auto mb-4 object-cover border-4 border-yellow-400"
               />
